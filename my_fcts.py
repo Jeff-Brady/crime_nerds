@@ -86,7 +86,7 @@ def check_nan(df):
     null_count = df.isnull().sum()
     for column, has_null in null_columns.items():
         if has_null:
-            print(f"'{column}' has {null_count[column]} missing values.\nTo drop the rows use:\n\n'YOUR_DF.dropna(subset=['{column}'], inplace=True)'")
+            print(f"'{column}' has {null_count[column]} missing values.\nTo drop the rows use:\n'YOUR_DF.dropna(subset=['{column}'], inplace=True)'\n")
             #drop_null = df.dropna(subset=[column], inplace=True)
     return
 
