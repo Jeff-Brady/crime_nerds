@@ -22,7 +22,7 @@ import os
 import subprocess
 
 def play_sound_and_notify():
-        for n in range(3):
+        for n in range(1):
             os.system('afplay /System/Library/Sounds/Hero.aiff')
 
         apple_script = f'display dialog "Task done!" buttons {{"OK"}}'
