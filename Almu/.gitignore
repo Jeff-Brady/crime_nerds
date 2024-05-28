@@ -161,8 +161,12 @@ cython_debug/
 
 #Data
 data/
+#Graduation Rate by Gender.csv
+##data/Graduation Rate by Race_Ethnicity.csv
+#data/Graduation Rate.csv
+#data/graduation_rates_borough_2.xlsx
+#data/graduation_rates_borough.xlsx
+**/.DS_Store
 
-#SQL Functions file - delete line after done!
 
-#sql_functions.py
 
