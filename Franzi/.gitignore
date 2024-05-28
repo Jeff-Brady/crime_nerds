@@ -163,4 +163,4 @@ cython_debug/
 data/
 
 #SQL Functions file - delete line after done!
-sql_functions.py
+#sql_functions.py
