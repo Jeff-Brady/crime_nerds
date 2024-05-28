@@ -23,5 +23,5 @@ def corr_offense_borough (data, offense):
 
     #Staten Island
     data_isl = data_filter[data_filter['borough'] == 'Staten Island']
-    corr_isl = data_isl['unemprate'].corr(data_isl['count'])
+    corr_isl = data_isl['unemprate'].corr(data_isl['count'])<<<<<<< main
     print("Correlation coefficient between", offense, "offenses in Staten Island and Unemployment Rate:", corr_isl)
